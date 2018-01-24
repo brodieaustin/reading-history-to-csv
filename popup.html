@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reading History to CSV</title>
+  <style>
+    body{
+      width: 26rem;
+      min-height: 50px;
+      padding: 1rem;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    h1{
+      margin-top: 0;
+    }
+    p{
+      margin-bottom: 2rem;
+    }
+
+    button{
+      display: inline-block
+      background: transparent;
+      border: 2px solid #333;
+      padding: 1rem;
+      cursor: pointer;
+      font-size: .875rem;
+    }
+
+    button:hover{
+      opacity: .6;
+    }
+
+    button > a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #addresses{
+      word-wrap: break-word;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Reading History to CSV</h1>
+  <p>Hi, <span id="patron-name"></span>, let's download your reading history to a CSV file (it's like a simple spreadsheet). Click the button below to get your file.</p>
+  <button id="download-button"></button>
+</body>
+</html>
