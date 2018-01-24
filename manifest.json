@@ -3,7 +3,7 @@
   "description": "Download your reading history as CSV",
   "manifest_version": 2,
   "name": "Reading History to CSV",
-  "permissions": [ "https://ccsp.ent.sirsi.net/client/en_US/nbk/search/account*"],
+  "permissions": [ "https://ccsp.ent.sirsi.net/client/en_US/*"],
   "short_name": "History to CSV",
   "version": "1.0",
   "background": {
